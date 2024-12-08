@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.8;
+    background-color: #f8f1e7; /* Light beige background for elegance */
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Header Section */
+header {
+    background: #333; /* Black header */
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header .logo img {
+    height: 140px;
+    width: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    color: #d4af37; /* Muted gold hover effect */
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: #f8f1e7 url('../images/hero.jpg') center/cover no-repeat;
+    text-align: center;
+    color: #333;
+    padding: 120px 20px;
+    margin-top: 60px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #d4af37; /* Gold button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero .btn:hover {
+    background: #333; /* Black on hover */
+    color: #fff;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* About Section */
+#about p {
+    text-align: center;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Product Grid */
+.product-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    text-align: center;
+    max-width: 300px;
+    background: #fff; /* White background for product cards */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 1.3em;
+    color: #333;
+}
+
+.product p {
+    font-size: 1em;
+    color: #777;
+}
+
+/* Contact Section */
+#contact p {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#contact a {
+    color: #d4af37; /* Gold link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333; /* Black footer */
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 0.5;
+}
