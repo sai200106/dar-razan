@@ -180,7 +180,7 @@ footer {
     background: #333; /* Black footer */
     color: #fff;
     font-size: 0.9em;
-    line-height: 0.5;
+    line-height: 0.05;
     position:fixed;
     bottom:0;
     width:100%;
