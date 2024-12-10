@@ -52,8 +52,9 @@ header nav ul li {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+    text-decoration-thickness: 2px;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 header nav ul li a:hover {
