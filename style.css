@@ -19,7 +19,7 @@ header {
     background: #333; /* Black header */
     color: #fff;
     padding: 10px 0;
-    position: fixed;
+    position: flex;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -46,7 +46,7 @@ header nav ul {
 }
 
 header nav ul li {
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 header nav ul li a {
@@ -182,7 +182,7 @@ footer {
     background: #333; /* Black footer */
     color: #fff;
     font-size: 0.9em;
-    line-height: 0.05;
+    line-height: 0.06;
     position:fixed;
     bottom:0;
     width:100%;
