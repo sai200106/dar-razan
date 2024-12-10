@@ -120,10 +120,10 @@ h2 {
 
 /* Product Grid */
 .product-grid {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr); /* Ensure three columns per row */
-    gap: 20px;
-    justify-content: center;
+    gap: 100px;
+    justify-content: space even;
     flex-wrap: wrap;
 }
 
