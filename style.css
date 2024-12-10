@@ -166,7 +166,7 @@ h2 {
 
 #contact a {
     color: #d4af37; /* Gold link */
-    text-decoration: none;
+    text-decoration: bold;
     font-weight: bold;
 }
 
@@ -178,10 +178,10 @@ h2 {
 /* Footer */
 footer {
     text-align: center;
-    padding: 5px;
+    padding: 3px;
     background: #333; /* Black footer */
-    color: #fff;
-    font-size: 0.9em;
+    color: #ffd;
+    font-size: 1em;
     line-height: 0.06;
     position:fixed;
     bottom:0;
