@@ -59,7 +59,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: #d4af37; /* Muted gold hover effect */
-    text-decoration: underline;
+    text-decoration: bold;
 }
 
 /* Hero Section */
