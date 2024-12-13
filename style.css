@@ -67,7 +67,7 @@ header nav ul li a:hover {
     background: #f8f1e7 url('../images/hero.jpg') center/cover no-repeat;
     text-align: center;
     color: #333;
-    padding: 120px 20px;
+    padding: 120px 0px;
     margin-top: 60px;
 }
 
