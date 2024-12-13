@@ -112,7 +112,7 @@ h2 {
 }
 
 /* Store Location Section */
-#Store-Location p {
+.Store-Location p {
     text-align: center;
     font-size: 1.2em;
     max-width: 800px;
